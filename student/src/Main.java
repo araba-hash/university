@@ -10,6 +10,7 @@ public class Main {
         String addCourse = "";
         int numberHour = 0;
         int numberGrade = 0;
+        int x=0;
 
         System.out.println("Enter your operation (add/delete) student ");
         Scanner input = new Scanner(System.in);
@@ -29,7 +30,7 @@ public class Main {
             String birthdate = input.nextLine();
             student1.setBirthdate(birthdate);
             System.out.println("how many course you want add ");
-            int x = input.nextInt();
+             x = input.nextInt();
             input.nextLine();
             for (int i = 0; i < x; i++) {
                 System.out.println("add the first Course : " + (i + 1) + "  ID " + newID);
@@ -58,14 +59,19 @@ public class Main {
                 System.out.println("Birthdate  :  " + student1.getBirthdate());
             }
            System.out.println("Average  :  " + average);
-            System.out.println("Cn\t\t\tCredit Hours\t"+"  Grade");
+            System.out.println("Cn\t\t  Credit Hours\t\t"+"  Grade");
             for (int i =0;i<course.size();i++) {
                 //System.out.println("get average for this ID :" + newID.get+"is "+average);
 
-                System.out.println(course.get(i).getCn()+"\t\t"+course.get(i).getCh()+"\t\t\t     "+course.get(i).getGrade());
+                System.out.println(course.get(i).getCn().trim()+"\t\t"+course.get(i).getCh()+"\t\t\t     "+course.get(i).getGrade());
 
             }
-        } else if (str.equals("delete"))
+        } else if (str.equals("delete")){
             students.remove(0);
+            for (int i = 0; i <x; i++) {
+                course.remove(i);
+
+            }
+        }
     }
 }

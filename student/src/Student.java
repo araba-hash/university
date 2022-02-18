@@ -6,9 +6,6 @@ public class Student {
     private String major;
     private String birthdate;
     ArrayList<Course> course = new ArrayList<Course>();
-
-
-
     public String getId() {
         return id;
     }
