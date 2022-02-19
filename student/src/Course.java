@@ -2,6 +2,7 @@ public class Course {
     private String cn ;
     private int ch;
     private int grade ;
+    public Course(){}
     public Course(String cn ,int ch,int grade){
         this.ch=ch;
         this.cn=cn;

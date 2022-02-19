@@ -1,11 +1,18 @@
-import java.util.ArrayList;
-
 public class Student {
     private String id;
     private String name;
     private String major;
     private String birthdate;
-    ArrayList<Course> course = new ArrayList<Course>();
+    public Student(){
+
+    }
+    public Student(String id,String name,String major ,String birthdate){
+        this.id=id;
+        this.name=name;
+        this.major=major;
+        this.birthdate=birthdate;
+
+    }
     public String getId() {
         return id;
     }
@@ -38,13 +45,6 @@ public class Student {
         this.birthdate = birthdate;
     }
 
-    public ArrayList<Course> getCourse() {
-        return course;
-    }
-
-    public void setCourse(ArrayList<Course> course) {
-        this.course = course;
-    }
 
 
 }
