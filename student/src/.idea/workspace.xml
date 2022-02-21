@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c62baf5-870c-4fc7-9f9c-8ec3f5bd6df7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/student/src/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/New folder.iml" afterDir="false" />
+    <list default="true" id="c25278af-3fe1-4b35-bbd6-d12b789f7b48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="25MLJDbLVtfWU9QXNwWCbutNE4P" />
+  <component name="ProjectId" id="25QPCqfmRBOOV6lLNk52aJOoQIX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,11 +28,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c62baf5-870c-4fc7-9f9c-8ec3f5bd6df7" name="Changes" comment="" />
-      <created>1645331937954</created>
+      <changelist id="c25278af-3fe1-4b35-bbd6-d12b789f7b48" name="Changes" comment="" />
+      <created>1645456216075</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645331937954</updated>
+      <updated>1645456216075</updated>
     </task>
     <servers />
   </component>
